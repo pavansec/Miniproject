@@ -1,10 +1,26 @@
-<html>
-  <head>
-    <title>
-      My Project
-    </title>
-  </head>
-  <body>
-    <h1> My Project </h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language to Tamil Text Conversion</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sign Language to Tamil Speech Conversion</h1>
+        </header>
+        
+        <div class="video-container">
+            <div class="video-box">
+                <img src="{{ url_for('video_feed') }}" alt="Video Feed" />
+            </div>
+        </div>
+        
+        <footer>
+            <p>Sign language gestures will be translated into Tamil text and audio will play automatically.</p>
+        </footer>
+    </div>
+</body>
 </html>
