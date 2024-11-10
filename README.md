@@ -40,7 +40,8 @@ This project aims at designing a real-time Sign Language to Speech Conversion sy
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
-![archi diagram](https://github.com/user-attachments/assets/e4cb87c8-d1c0-41fa-ad3f-4967ed8841f1)
+![image](https://github.com/user-attachments/assets/954291c1-bc60-4f3f-a6b5-a1237642dbae)
+
 
 
 
@@ -50,11 +51,13 @@ This project aims at designing a real-time Sign Language to Speech Conversion sy
 #### Output1 - After browsing for our website, the following page will be shown.
 In this page the live feed from the camera is displayed
 
-![1](https://github.com/user-attachments/assets/51bfc911-06e8-41ae-a8a9-2656e66649fa)
+![image](https://github.com/user-attachments/assets/97f1841e-6aa5-4a75-a2ed-2454ddfd26ed)
+
 
 
 #### Output2 - If a recognized sign language input is given through hand signs, the text output is displayed on the screen and audio output is delivered through the primary speaker of the device
-![2](https://github.com/user-attachments/assets/7e4dbba3-2797-4ed3-aced-1dfbd6f5ba4d)
+![image](https://github.com/user-attachments/assets/8b2809b5-b4c1-4da5-97fd-ec78a534c8db)
+
 
 
 Accuracy: 90%
